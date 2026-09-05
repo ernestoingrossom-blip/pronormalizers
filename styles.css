@@ -271,3 +271,31 @@
     overflow-x:auto;
   }
 }
+
+/* Final mobile map sizing: keep labels inside the island hit areas */
+@media(max-width:700px){
+  .island-card{padding:4px}
+  .island-index{
+    width:18px;
+    height:18px;
+    font-size:.42rem;
+  }
+  .island-tag{
+    margin-bottom:2px;
+    font-size:clamp(.30rem,1.35vw,.38rem);
+    line-height:1.05;
+    letter-spacing:.04em;
+  }
+  .island-card strong{
+    max-width:88%;
+    font-size:clamp(.42rem,2vw,.56rem);
+    line-height:.98;
+  }
+  .island-card small{
+    max-width:82%;
+    margin-top:2px;
+    font-size:clamp(.29rem,1.25vw,.36rem);
+    line-height:1.08;
+  }
+  .island-arrow{font-size:.38rem}
+}
