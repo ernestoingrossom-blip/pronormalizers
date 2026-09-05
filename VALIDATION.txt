@@ -1,0 +1,13 @@
+Validation performed after the fix:
+
+Homepage: 9 island-card elements generated.
+Routes checked:
+- origins: OK
+- pronormality: OK
+- basic-results: OK
+- pronormalizers: OK
+- remarks: OK
+- seriality: OK
+- capelli-frattini: OK
+- theorem-b: OK
+- theorem-a: OK

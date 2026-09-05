@@ -1,0 +1,13 @@
+Preview v3
+
+- Poster2 retained as the main background.
+- Corrected island hitboxes retained.
+- Wanted-poster images retained on the relevant detail pages.
+- Island topics follow the poster.
+- Body text rebuilt from the original HTML/app.js source, with only editorial corrections, relocation of misplaced paragraphs, removal of duplications, and reference fixes.
+- S4 diagram remains a static SVG; no Xy-pic/TikZ compilation is used for it.
+- Bibliography entries are populated from main-3.tex for all citations used in the preview.
+
+Fixed build: removed all runtime TikZJax dependence; both S4 and Theorem A diagrams are static inline SVG.
+
+Updated bounty images: replaced background crops with the original wanted-poster source assets from Archive.zip for higher fidelity and correct associations.

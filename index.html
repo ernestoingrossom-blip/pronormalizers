@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#efe7d2">
+  <meta name="description" content="Nine islands for navigating the theory of pronormalizers.">
+  <title>The Voyage — Pronormalizers</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script>
+    window.MathJax = {
+      loader: {
+        load: ['[tex]/color']
+      },
+      tex: {
+        packages: {'[+]': ['color']},
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        tags: 'ams',
+        macros: {
+          // Project macros used by the original Beamer/LaTeX source.
+          // They are defined here so the same commands also work inside MathJax math.
+          softgreen: '\\color[rgb]{0.192,0.361,0.275}',
+          gold: '\\color[rgb]{0.604,0.416,0.114}',
+          greenbox: ['{\\color[rgb]{0.192,0.361,0.275}\\boxed{#1}}', 1],
+          redbox: ['{\\color[rgb]{0.608,0.282,0.161}\\boxed{#1}}', 1],
+          yellowbox: ['{\\color[rgb]{0.604,0.416,0.114}\\boxed{#1}}', 1]
+        }
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script defer src="app.js"></script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+<body>
+  <noscript>
+    <div class="noscript-message">
+      This presentation requires JavaScript to display the interactive map.
+    </div>
+  </noscript>
+
+  <main id="app" aria-live="polite"></main>
+</body>
+</html>
